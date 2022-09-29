@@ -211,8 +211,10 @@ ul {
 }
 
 .signin_input{
-  padding-left: 300px;
-  padding-right: 250px;
+  user-select:auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 750px;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: #fcfafa;
@@ -221,7 +223,16 @@ ul {
   border-width: 1px;
 }
 
-.sub{
+.signin_input2{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #fcfafa;
+  border-style: solid;
+  border-color: #2a272a; 
+  border-width: 1px;
+}
+
+  .sub{
   margin-top: 20px;
   margin-left: 300px;
   padding-left: 100px;

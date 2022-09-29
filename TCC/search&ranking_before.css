@@ -167,7 +167,7 @@ ul {
   left: 12%;
 }
 
-.login_box{
+.box1{
   border-style: solid;
   border-color: black; 
   border-width: 1px;
@@ -176,70 +176,17 @@ ul {
   height: 60vh;
   top: 12.11%;
   left: 20%;
-  background: #DCDEDE;
+  background: #a3cfcd ;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.entrar{
-  padding: 5px;
-  font-family: Quantico;
-  font-size: 36px;
-  text-align: center;
-  background-color: #2a272a;
-  color: white;
-}
-
-
-.login{
-  width: 360px;
-  height: min-content;
-  padding: 20px;
-  background: DCDEDE;
-}
-
-.login form{
-  font-size: 20px;
-}
-
-.login form .form-group{
-  margin-bottom: 12px;
-}
-
-.form-group{
-  margin-top: 40px;
-  margin-left: 80px;
-}
-
-.login_input{
-  user-select:auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  width: 750px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #fcfafa;
-  border-style: solid;
-  border-color: #2a272a; 
-  border-width: 1px;
-}
-
-.login_input{
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #fcfafa;
-  border-style: solid;
-  border-color: #2a272a; 
-  border-width: 1px;
-}
-
-.sub{
-  margin-top: 50px;
-  margin-left: 300px;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  background-color: #a3cfcd;
-  color: white;
-  font-size: 25px;
+.box2{
+    position: absolute;
+    width: 40vw;
+    height: 40vh;
+    top: 16%;
+    left: 10%;
+    background-color: #E7E6E6;
+    font-size: 50px;
+    font-family: Quantico;
 }
