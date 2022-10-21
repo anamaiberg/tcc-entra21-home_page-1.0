@@ -10,6 +10,7 @@
     <link rel="icon" type="image/png" sizes="128x128" href="cobra.png">
 </head>
 <body>
+  <nav class="fixed-nav-bar">
     <div class="topbar">
         <div class="topbar-inner">
             <div class="container-fluid">
@@ -35,15 +36,16 @@
         </div>
       </div>
     </div>
+  </nav>
     <div class="main_mamba">
       <p class="intro">
       Mamba consiste na automação de um processo de seleção de talentos.
-      Para começar, insira os currículos que deseja analisar na área indicada 
-      Depois, indique palavras que você gostaria de procurar pelos currículos 
-      (Exemplo: "inglês fluente"). Qunado o processo de carregamento acabar, 
+      Ao clicar em começar, insira os currículos que deseja analisar na área indicada. 
+      Depois, indique palavras que você gostaria de procurar pelos currículos,
+      por presets ou por escrito  (Exemplo: "inglês"). Quando o processo de carregamento acabar, 
       você poderá ver os currículos que possuem as palavras em um ranking dos
       que mais se alinham com o procurado. Desejamos a você uma ótima experiência
-      e agradecemos  por cunsultar o Mamba.
+      e agradecemos  por consultar o Mamba. 
       </p>
       <div class="upload">
         <form>
@@ -54,17 +56,21 @@
         </form>
        </div>    
     </div>
-
     <div class="side">
       <main class="main">
         <aside class="sidebar">
           <nav class="nav">
               <ul>
-                <li class="active"><div class="button"><a id="links" href="#">HOME</a></div></li>
-                <li class="search"><div class="button"><a id="links" href="#">SEARCH</a></div></li>
-                <li class="ranking"><div class="button"><a id="links" href="#">RANKING</a></div></li>
-                <li class="about"><div class="button"><a id="links" href="#">ABOUT</a></div></li>
-                <li class="out"><div class="button"><a id="links" href="#">LOG OUT</a></div></li>
+              
+                <div class="buttons">
+
+                <li class="active"><a id="links" href="#"><div id="buttons2">HOME</div></a></li>
+                <li class="search"><a id="links" href="#"><div id="buttons2">SEARCH</div></a></li>
+                <li class="ranking"><a id="links" href="#"><div id="buttons2">RANKING</div></a></li>
+                <li class="about"><a id="links" href="#"><div id="buttons2">ABOUT</div></a></li>
+                <li class="out"><a id="links" href="#"><div id="buttons2">LOG OUT</div></a></li>
+              </div>
+
               </ul>
           </nav>
         </aside>
